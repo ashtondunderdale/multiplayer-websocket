@@ -1,0 +1,94 @@
+﻿{
+  "Fish": [
+    {
+      "Name": "Pufferfish",
+      "Description": "Inflates when threatened.",
+
+      "PriceNormal": 200,
+      "PriceSilver": 250,
+      "PriceGold": 300,
+      "PriceIridium": 400,
+
+      "PriceNormalFisherProfession": 250,
+      "PriceSilverFisherProfession": 312,
+      "PriceGoldFisherProfession": 375,
+      "PriceIridiumFisherProfession": 500,
+
+      "PriceNormalAnglerProfession": 300,
+      "PriceSilverAnglerProfession": 375,
+      "PriceGoldAnglerProfession": 450,
+      "PriceIridiumAnglerProfession": 600,
+
+      "Locations": [
+        "Ocean",
+        "Ginger Island oceans",
+        "Beach Farm"
+      ],
+
+      "Time": "12pm - 4pm",
+      "Season": "Summer",
+      "Weather": "Sun",
+      "MinSizeInches": 1,
+      "MaxSizeInches": 37,
+      "Difficulty": 80,
+      "Behaviour": "Floater",
+
+      "NormalXP": 29,
+      "SilverXP": 32,
+      "GoldXP": 35,
+      "IridiumXP": 41,
+
+      "EnergyEffectNormal": -100,
+      "EnergyEffectSilver": -140,
+      "EnergyEffectGold": -180,
+      "EnergyEffectIridium": -260,
+
+      "IsBundleItem": true
+    },
+    {
+      "Name": "Pufferfish",
+      "Description": "Inflates when threatened.",
+
+      "PriceNormal": 200,
+      "PriceSilver": 250,
+      "PriceGold": 300,
+      "PriceIridium": 400,
+
+      "PriceNormalFisherProfession": 250,
+      "PriceSilverFisherProfession": 312,
+      "PriceGoldFisherProfession": 375,
+      "PriceIridiumFisherProfession": 500,
+
+      "PriceNormalAnglerProfession": 300,
+      "PriceSilverAnglerProfession": 375,
+      "PriceGoldAnglerProfession": 450,
+      "PriceIridiumAnglerProfession": 600,
+
+      "Locations": [
+        "Ocean",
+        "Ginger Island oceans",
+        "Beach Farm"
+      ],
+
+      "Time": "12pm - 4pm",
+      "Season": "Summer",
+      "Weather": "Sun",
+      "MinSizeInches": 1,
+      "MaxSizeInches": 37,
+      "Difficulty": 80,
+      "Behaviour": "Floater",
+
+      "NormalXP": 29,
+      "SilverXP": 32,
+      "GoldXP": 35,
+      "IridiumXP": 41,
+
+      "EnergyEffectNormal": -100,
+      "EnergyEffectSilver": -140,
+      "EnergyEffectGold": -180,
+      "EnergyEffectIridium": -260,
+
+      "IsBundleItem": true
+    }
+  ]
+}
