@@ -25,8 +25,11 @@
         "Beach Farm"
       ],
 
+      "Seasons": [
+        "Summer"
+      ],
+
       "Time": "12pm - 4pm",
-      "Season": "Summer",
       "Weather": "Sun",
       "MinSizeInches": 1,
       "MaxSizeInches": 37,
@@ -42,53 +45,1298 @@
       "EnergyEffectSilver": -140,
       "EnergyEffectGold": -180,
       "EnergyEffectIridium": -260,
+
+      "HealthEffectNormal": 0,
+      "HealthEffectSilver": 0,
+      "HealthEffectGold": 0,
+      "HealthEffectIridium": 0,
 
       "IsBundleItem": true
     },
     {
-      "Name": "Pufferfish",
-      "Description": "Inflates when threatened.",
+      "Name": "Anchovy",
+      "Description": "A small silver fish found in the ocean.",
 
-      "PriceNormal": 200,
-      "PriceSilver": 250,
-      "PriceGold": 300,
-      "PriceIridium": 400,
+      "PriceNormal": 30,
+      "PriceSilver": 37,
+      "PriceGold": 45,
+      "PriceIridium": 60,
 
-      "PriceNormalFisherProfession": 250,
-      "PriceSilverFisherProfession": 312,
-      "PriceGoldFisherProfession": 375,
-      "PriceIridiumFisherProfession": 500,
+      "PriceNormalFisherProfession": 37,
+      "PriceSilverFisherProfession": 46,
+      "PriceGoldFisherProfession": 56,
+      "PriceIridiumFisherProfession": 75,
 
-      "PriceNormalAnglerProfession": 300,
-      "PriceSilverAnglerProfession": 375,
-      "PriceGoldAnglerProfession": 450,
-      "PriceIridiumAnglerProfession": 600,
+      "PriceNormalAnglerProfession": 45,
+      "PriceSilverAnglerProfession": 55,
+      "PriceGoldAnglerProfession": 67,
+      "PriceIridiumAnglerProfession": 90,
+
+      "Locations": [
+        "Ocean"
+      ],
+
+      "Seasons": [
+        "Spring",
+        "Fall"
+      ],
+
+      "Time": "Anytime",
+      "Weather": "Any",
+      "MinSizeInches": 1,
+      "MaxSizeInches": 17,
+      "Difficulty": 30,
+      "Behaviour": "Dart",
+
+      "NormalXP": 13,
+      "SilverXP": 16,
+      "GoldXP": 19,
+      "IridiumXP": 25,
+
+      "EnergyEffectNormal": 13,
+      "EnergyEffectSilver": 18,
+      "EnergyEffectGold": 23,
+      "EnergyEffectIridium": 33,
+
+      "HealthEffectNormal": 5,
+      "HealthEffectSilver": 8,
+      "HealthEffectGold": 10,
+      "HealthEffectIridium": 14,
+
+      "IsBundleItem": false
+    },
+    {
+      "Name": "Tuna",
+      "Description": "A large fish that lives in the ocean.",
+
+      "PriceNormal": 100,
+      "PriceSilver": 125,
+      "PriceGold": 150,
+      "PriceIridium": 200,
+
+      "PriceNormalFisherProfession": 125,
+      "PriceSilverFisherProfession": 156,
+      "PriceGoldFisherProfession": 187,
+      "PriceIridiumFisherProfession": 250,
+
+      "PriceNormalAnglerProfession": 150,
+      "PriceSilverAnglerProfession": 187,
+      "PriceGoldAnglerProfession": 225,
+      "PriceIridiumAnglerProfession": 300,
 
       "Locations": [
         "Ocean",
-        "Ginger Island oceans",
-        "Beach Farm"
+        "Ginger Island Oceans"
       ],
 
-      "Time": "12pm - 4pm",
-      "Season": "Summer",
-      "Weather": "Sun",
-      "MinSizeInches": 1,
-      "MaxSizeInches": 37,
-      "Difficulty": 80,
-      "Behaviour": "Floater",
+      "Seasons": [
+        "Summer",
+        "Winter"
+      ],
 
-      "NormalXP": 29,
-      "SilverXP": 32,
-      "GoldXP": 35,
-      "IridiumXP": 41,
+      "Time": "6am - 7pm",
+      "Weather": "Any",
+      "MinSizeInches": 12,
+      "MaxSizeInches": 61,
+      "Difficulty": 70,
+      "Behaviour": "Smooth",
 
-      "EnergyEffectNormal": -100,
-      "EnergyEffectSilver": -140,
-      "EnergyEffectGold": -180,
-      "EnergyEffectIridium": -260,
+      "NormalXP": 13,
+      "SilverXP": 16,
+      "GoldXP": 19,
+      "IridiumXP": 25,
+
+      "EnergyEffectNormal": 13,
+      "EnergyEffectSilver": 18,
+      "EnergyEffectGold": 23,
+      "EnergyEffectIridium": 33,
+
+      "HealthEffectNormal": 5,
+      "HealthEffectSilver": 8,
+      "HealthEffectGold": 10,
+      "HealthEffectIridium": 14,
 
       "IsBundleItem": true
+    },
+    {
+      "Name": "Sardine",
+      "Description": "A common ocean fish.",
+
+      "PriceNormal": 40,
+      "PriceSilver": 50,
+      "PriceGold": 60,
+      "PriceIridium": 80,
+
+      "PriceNormalFisherProfession": 50,
+      "PriceSilverFisherProfession": 62,
+      "PriceGoldFisherProfession": 75,
+      "PriceIridiumFisherProfession": 100,
+
+      "PriceNormalAnglerProfession": 60,
+      "PriceSilverAnglerProfession": 75,
+      "PriceGoldAnglerProfession": 90,
+      "PriceIridiumAnglerProfession": 120,
+
+      "Locations": [
+        "Ocean"
+      ],
+
+      "Seasons": [
+        "Spring",
+        "Fall",
+        "Winter"
+      ],
+
+      "Time": "6am - 7pm",
+      "Weather": "Any",
+      "MinSizeInches": 1,
+      "MaxSizeInches": 13,
+      "Difficulty": 30,
+      "Behaviour": "Dart",
+
+      "NormalXP": 13,
+      "SilverXP": 16,
+      "GoldXP": 19,
+      "IridiumXP": 25,
+
+      "EnergyEffectNormal": 13,
+      "EnergyEffectSilver": 18,
+      "EnergyEffectGold": 23,
+      "EnergyEffectIridium": 33,
+
+      "HealthEffectNormal": 5,
+      "HealthEffectSilver": 8,
+      "HealthEffectGold": 10,
+      "HealthEffectIridium": 14,
+
+      "IsBundleItem": true
+    },
+    {
+      "Name": "Bream",
+      "Description": "A fairly common river fish taht becomes active at night.",
+
+      "PriceNormal": 45,
+      "PriceSilver": 56,
+      "PriceGold": 67,
+      "PriceIridium": 90,
+
+      "PriceNormalFisherProfession": 56,
+      "PriceSilverFisherProfession": 70,
+      "PriceGoldFisherProfession": 83,
+      "PriceIridiumFisherProfession": 112,
+
+      "PriceNormalAnglerProfession": 67,
+      "PriceSilverAnglerProfession": 84,
+      "PriceGoldAnglerProfession": 100,
+      "PriceIridiumAnglerProfession": 135,
+
+      "Locations": [
+        "Town River",
+        "Forest River"
+      ],
+
+      "Seasons": [
+        "All Seasons"
+      ],
+
+      "Time": "6pm - 2am",
+      "Weather": "Any",
+      "MinSizeInches": 12,
+      "MaxSizeInches": 31,
+      "Difficulty": 35,
+      "Behaviour": "Smooth",
+
+      "NormalXP": 14,
+      "SilverXP": 17,
+      "GoldXP": 20,
+      "IridiumXP": 26,
+
+      "EnergyEffectNormal": 13,
+      "EnergyEffectSilver": 18,
+      "EnergyEffectGold": 23,
+      "EnergyEffectIridium": 33,
+
+      "HealthEffectNormal": 5,
+      "HealthEffectSilver": 8,
+      "HealthEffectGold": 10,
+      "HealthEffectIridium": 14,
+
+      "IsBundleItem": true
+    },
+    {
+      "Name": "Largemouth Bass",
+      "Description": "A popular fish that lives in lakes.",
+
+      "PriceNormal": 100,
+      "PriceSilver": 125,
+      "PriceGold": 150,
+      "PriceIridium": 200,
+
+      "PriceNormalFisherProfession": 125,
+      "PriceSilverFisherProfession": 156,
+      "PriceGoldFisherProfession": 187,
+      "PriceIridiumFisherProfession": 250,
+
+      "PriceNormalAnglerProfession": 150,
+      "PriceSilverAnglerProfession": 187,
+      "PriceGoldAnglerProfession": 225,
+      "PriceIridiumAnglerProfession": 300,
+
+      "Locations": [
+        "The Mountain Lake"
+      ],
+
+      "Seasons": [
+        "All Seasons"
+      ],
+
+      "Time": "6am - 7pm",
+      "Weather": "Any",
+      "MinSizeInches": 11,
+      "MaxSizeInches": 31,
+      "Difficulty": 50,
+      "Behaviour": "Mixed",
+
+      "NormalXP": 19,
+      "SilverXP": 22,
+      "GoldXP": 25,
+      "IridiumXP": 31,
+
+      "EnergyEffectNormal": 38,
+      "EnergyEffectSilver": 53,
+      "EnergyEffectGold": 68,
+      "EnergyEffectIridium": 98,
+
+      "HealthEffectNormal": 17,
+      "HealthEffectSilver": 23,
+      "HealthEffectGold": 30,
+      "HealthEffectIridium": 44,
+
+      "IsBundleItem": true
+    },
+    {
+      "Name": "Smallmouth Bass",
+      "Description": "A freshwater fish that is very sensitive to pollution.",
+
+      "PriceNormal": 50,
+      "PriceSilver": 62,
+      "PriceGold": 75,
+      "PriceIridium": 100,
+
+      "PriceNormalFisherProfession": 62,
+      "PriceSilverFisherProfession": 77,
+      "PriceGoldFisherProfession": 93,
+      "PriceIridiumFisherProfession": 125,
+
+      "PriceNormalAnglerProfession": 75,
+      "PriceSilverAnglerProfession": 93,
+      "PriceGoldAnglerProfession": 112,
+      "PriceIridiumAnglerProfession": 150,
+
+      "Locations": [
+        "Town River",
+        "Forest Pond"
+      ],
+
+      "Seasons": [
+        "Spring",
+        "Fall"
+      ],
+
+      "Time": "Anytime",
+      "Weather": "Any",
+      "MinSizeInches": 12,
+      "MaxSizeInches": 25,
+      "Difficulty": 28,
+      "Behaviour": "Mixed",
+
+      "NormalXP": 12,
+      "SilverXP": 15,
+      "GoldXP": 18,
+      "IridiumXP": 24,
+
+      "EnergyEffectNormal": 25,
+      "EnergyEffectSilver": 35,
+      "EnergyEffectGold": 45,
+      "EnergyEffectIridium": 65,
+
+      "HealthEffectNormal": 11,
+      "HealthEffectSilver": 15,
+      "HealthEffectGold": 20,
+      "HealthEffectIridium": 29,
+
+      "IsBundleItem": false
+    },
+    {
+      "Name": "Rainbow Trout",
+      "Description": "A freshwater trout with colorful markings.",
+
+      "PriceNormal": 65,
+      "PriceSilver": 81,
+      "PriceGold": 97,
+      "PriceIridium": 130,
+
+      "PriceNormalFisherProfession": 81,
+      "PriceSilverFisherProfession": 101,
+      "PriceGoldFisherProfession": 121,
+      "PriceIridiumFisherProfession": 162,
+
+      "PriceNormalAnglerProfession": 97,
+      "PriceSilverAnglerProfession": 121,
+      "PriceGoldAnglerProfession": 145,
+      "PriceIridiumAnglerProfession": 195,
+
+      "Locations": [
+        "Town River",
+        "Forest River",
+        "The Mountain Lake"
+      ],
+
+      "Seasons": [
+        "Summer"
+      ],
+
+      "Time": "6am - 7pm",
+      "Weather": "Sun",
+      "MinSizeInches": 10,
+      "MaxSizeInches": 26,
+      "Difficulty": 45,
+      "Behaviour": "Mixed",
+
+      "NormalXP": 18,
+      "SilverXP": 21,
+      "GoldXP": 24,
+      "IridiumXP": 30,
+
+      "EnergyEffectNormal": 25,
+      "EnergyEffectSilver": 35,
+      "EnergyEffectGold": 45,
+      "EnergyEffectIridium": 65,
+
+      "HealthEffectNormal": 11,
+      "HealthEffectSilver": 15,
+      "HealthEffectGold": 20,
+      "HealthEffectIridium": 29,
+
+      "IsBundleItem": false
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
+    },
+    {
+      "Name": null,
+      "Description": null,
+
+      "PriceNormal": null,
+      "PriceSilver": null,
+      "PriceGold": null,
+      "PriceIridium": null,
+
+      "PriceNormalFisherProfession": null,
+      "PriceSilverFisherProfession": null,
+      "PriceGoldFisherProfession": null,
+      "PriceIridiumFisherProfession": null,
+
+      "PriceNormalAnglerProfession": null,
+      "PriceSilverAnglerProfession": null,
+      "PriceGoldAnglerProfession": null,
+      "PriceIridiumAnglerProfession": null,
+
+      "Locations": [
+
+      ],
+
+      "Seasons": [
+
+      ],
+
+      "Time": null,
+      "Weather": null,
+      "MinSizeInches": null,
+      "MaxSizeInches": null,
+      "Difficulty": null,
+      "Behaviour": null,
+
+      "NormalXP": null,
+      "SilverXP": null,
+      "GoldXP": null,
+      "IridiumXP": null,
+
+      "EnergyEffectNormal": null,
+      "EnergyEffectSilver": null,
+      "EnergyEffectGold": null,
+      "EnergyEffectIridium": null,
+
+      "HealthEffectNormal": null,
+      "HealthEffectSilver": null,
+      "HealthEffectGold": null,
+      "HealthEffectIridium": null,
+
+      "IsBundleItem": null
     }
   ]
 }
