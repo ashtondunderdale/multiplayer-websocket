@@ -898,208 +898,212 @@
       "IsBundleItem": false
     },
     {
-      "Name": null,
-      "Description": null,
+      "Name": "Herring",
+      "Description": "A common ocean fish.",
 
-      "PriceNormal": null,
-      "PriceSilver": null,
-      "PriceGold": null,
-      "PriceIridium": null,
+      "PriceNormal": 30,
+      "PriceSilver": 37,
+      "PriceGold": 45,
+      "PriceIridium": 60,
 
-      "PriceNormalFisherProfession": null,
-      "PriceSilverFisherProfession": null,
-      "PriceGoldFisherProfession": null,
-      "PriceIridiumFisherProfession": null,
+      "PriceNormalFisherProfession": 37,
+      "PriceSilverFisherProfession": 46,
+      "PriceGoldFisherProfession": 56,
+      "PriceIridiumFisherProfession": 75,
 
-      "PriceNormalAnglerProfession": null,
-      "PriceSilverAnglerProfession": null,
-      "PriceGoldAnglerProfession": null,
-      "PriceIridiumAnglerProfession": null,
+      "PriceNormalAnglerProfession": 45,
+      "PriceSilverAnglerProfession": 55,
+      "PriceGoldAnglerProfession": 67,
+      "PriceIridiumAnglerProfession": 90,
 
       "Locations": [
-
+        "Ocean"
       ],
 
       "Seasons": [
-
+        "Spring",
+        "Winter"
       ],
 
-      "Time": null,
-      "Weather": null,
-      "MinSizeInches": null,
-      "MaxSizeInches": null,
-      "Difficulty": null,
-      "Behaviour": null,
+      "Time": "Anytime",
+      "Weather": "Any",
+      "MinSizeInches": 8,
+      "MaxSizeInches": 21,
+      "Difficulty": 25,
+      "Behaviour": "Dart",
 
-      "NormalXP": null,
-      "SilverXP": null,
-      "GoldXP": null,
-      "IridiumXP": null,
+      "NormalXP": 11,
+      "SilverXP": 14,
+      "GoldXP": 17,
+      "IridiumXP": 23,
 
-      "EnergyEffectNormal": null,
-      "EnergyEffectSilver": null,
-      "EnergyEffectGold": null,
-      "EnergyEffectIridium": null,
+      "EnergyEffectNormal": 13,
+      "EnergyEffectSilver": 18,
+      "EnergyEffectGold": 23,
+      "EnergyEffectIridium": 33,
 
-      "HealthEffectNormal": null,
-      "HealthEffectSilver": null,
-      "HealthEffectGold": null,
-      "HealthEffectIridium": null,
+      "HealthEffectNormal": 5,
+      "HealthEffectSilver": 8,
+      "HealthEffectGold": 10,
+      "HealthEffectIridium": 14,
 
-      "IsBundleItem": null
+      "IsBundleItem": false
     },
     {
-      "Name": null,
-      "Description": null,
+      "Name": "Eal",
+      "Description": "A long, slippery little fish.",
 
-      "PriceNormal": null,
-      "PriceSilver": null,
-      "PriceGold": null,
-      "PriceIridium": null,
+      "PriceNormal": 85,
+      "PriceSilver": 106,
+      "PriceGold": 127,
+      "PriceIridium": 170,
 
-      "PriceNormalFisherProfession": null,
-      "PriceSilverFisherProfession": null,
-      "PriceGoldFisherProfession": null,
-      "PriceIridiumFisherProfession": null,
+      "PriceNormalFisherProfession": 106,
+      "PriceSilverFisherProfession": 132,
+      "PriceGoldFisherProfession": 158,
+      "PriceIridiumFisherProfession": 212,
 
-      "PriceNormalAnglerProfession": null,
-      "PriceSilverAnglerProfession": null,
-      "PriceGoldAnglerProfession": null,
-      "PriceIridiumAnglerProfession": null,
+      "PriceNormalAnglerProfession": 127,
+      "PriceSilverAnglerProfession": 159,
+      "PriceGoldAnglerProfession": 190,
+      "PriceIridiumAnglerProfession": 225,
 
       "Locations": [
-
+        "Ocean"
       ],
 
       "Seasons": [
-
+        "Spring",
+        "Fall"
       ],
 
-      "Time": null,
-      "Weather": null,
-      "MinSizeInches": null,
-      "MaxSizeInches": null,
-      "Difficulty": null,
-      "Behaviour": null,
+      "Time": "4mp - 2am",
+      "Weather": "Rain",
+      "MinSizeInches": 12,
+      "MaxSizeInches": 81,
+      "Difficulty": 70,
+      "Behaviour": "Smooth",
 
-      "NormalXP": null,
-      "SilverXP": null,
-      "GoldXP": null,
-      "IridiumXP": null,
+      "NormalXP": 26,
+      "SilverXP": 29,
+      "GoldXP": 32,
+      "IridiumXP": 38,
 
-      "EnergyEffectNormal": null,
-      "EnergyEffectSilver": null,
-      "EnergyEffectGold": null,
-      "EnergyEffectIridium": null,
+      "EnergyEffectNormal": 30,
+      "EnergyEffectSilver": 42,
+      "EnergyEffectGold": 54,
+      "EnergyEffectIridium": 78,
 
-      "HealthEffectNormal": null,
-      "HealthEffectSilver": null,
-      "HealthEffectGold": null,
-      "HealthEffectIridium": null,
+      "HealthEffectNormal": 13,
+      "HealthEffectSilver": 18,
+      "HealthEffectGold": 24,
+      "HealthEffectIridium": 35,
 
-      "IsBundleItem": null
+      "IsBundleItem": true
     },
     {
-      "Name": null,
-      "Description": null,
+      "Name": "Octopus",
+      "Description": "A mysterious and intelligent creature.",
 
-      "PriceNormal": null,
-      "PriceSilver": null,
-      "PriceGold": null,
-      "PriceIridium": null,
+      "PriceNormal": 150,
+      "PriceSilver": 187,
+      "PriceGold": 225,
+      "PriceIridium": 300,
 
-      "PriceNormalFisherProfession": null,
-      "PriceSilverFisherProfession": null,
-      "PriceGoldFisherProfession": null,
-      "PriceIridiumFisherProfession": null,
+      "PriceNormalFisherProfession": 187,
+      "PriceSilverFisherProfession": 233,
+      "PriceGoldFisherProfession": 281,
+      "PriceIridiumFisherProfession": 375,
 
-      "PriceNormalAnglerProfession": null,
-      "PriceSilverAnglerProfession": null,
-      "PriceGoldAnglerProfession": null,
-      "PriceIridiumAnglerProfession": null,
+      "PriceNormalAnglerProfession": 225,
+      "PriceSilverAnglerProfession": 280,
+      "PriceGoldAnglerProfession": 337,
+      "PriceIridiumAnglerProfession": 450,
 
       "Locations": [
-
+        "Ocean"
       ],
 
       "Seasons": [
-
+        "Summer"
       ],
 
-      "Time": null,
-      "Weather": null,
-      "MinSizeInches": null,
-      "MaxSizeInches": null,
-      "Difficulty": null,
-      "Behaviour": null,
+      "Time": "6am - 1pm",
+      "Weather": "Any",
+      "MinSizeInches": 12,
+      "MaxSizeInches": 49,
+      "Difficulty": 95,
+      "Behaviour": "Sinker",
 
-      "NormalXP": null,
-      "SilverXP": null,
-      "GoldXP": null,
-      "IridiumXP": null,
+      "NormalXP": 34,
+      "SilverXP": 37,
+      "GoldXP": 40,
+      "IridiumXP": 46,
 
-      "EnergyEffectNormal": null,
-      "EnergyEffectSilver": null,
-      "EnergyEffectGold": null,
-      "EnergyEffectIridium": null,
+      "EnergyEffectNormal": "Inedible",
+      "EnergyEffectSilver": "Inedible",
+      "EnergyEffectGold": "Inedible",
+      "EnergyEffectIridium": "Inedible",
 
-      "HealthEffectNormal": null,
-      "HealthEffectSilver": null,
-      "HealthEffectGold": null,
-      "HealthEffectIridium": null,
+      "HealthEffectNormal": "Inedible",
+      "HealthEffectSilver": "Inedible",
+      "HealthEffectGold": "Inedible",
+      "HealthEffectIridium": "Inedible",
 
-      "IsBundleItem": null
+      "IsBundleItem": true
     },
     {
-      "Name": null,
-      "Description": null,
+      "Name": "Red Snapper",
+      "Description": "A popular fish with a nice red color.",
 
-      "PriceNormal": null,
-      "PriceSilver": null,
-      "PriceGold": null,
-      "PriceIridium": null,
+      "PriceNormal": 50,
+      "PriceSilver": 62,
+      "PriceGold": 75,
+      "PriceIridium": 100,
 
-      "PriceNormalFisherProfession": null,
-      "PriceSilverFisherProfession": null,
-      "PriceGoldFisherProfession": null,
-      "PriceIridiumFisherProfession": null,
+      "PriceNormalFisherProfession": 62,
+      "PriceSilverFisherProfession": 77,
+      "PriceGoldFisherProfession": 93,
+      "PriceIridiumFisherProfession": 125,
 
-      "PriceNormalAnglerProfession": null,
-      "PriceSilverAnglerProfession": null,
-      "PriceGoldAnglerProfession": null,
-      "PriceIridiumAnglerProfession": null,
+      "PriceNormalAnglerProfession": 75,
+      "PriceSilverAnglerProfession": 93,
+      "PriceGoldAnglerProfession": 112,
+      "PriceIridiumAnglerProfession": 150,
 
       "Locations": [
-
+        "Ocean",
+        "Beach Farm"
       ],
 
       "Seasons": [
-
+        "Summer",
+        "Fall"
       ],
 
-      "Time": null,
-      "Weather": null,
-      "MinSizeInches": null,
-      "MaxSizeInches": null,
-      "Difficulty": null,
-      "Behaviour": null,
+      "Time": "6am - 7pm",
+      "Weather": "Rain",
+      "MinSizeInches": 8,
+      "MaxSizeInches": 26,
+      "Difficulty": 40,
+      "Behaviour": "Mixed",
 
-      "NormalXP": null,
-      "SilverXP": null,
-      "GoldXP": null,
-      "IridiumXP": null,
+      "NormalXP": 16,
+      "SilverXP": 19,
+      "GoldXP": 22,
+      "IridiumXP": 28,
 
-      "EnergyEffectNormal": null,
-      "EnergyEffectSilver": null,
-      "EnergyEffectGold": null,
-      "EnergyEffectIridium": null,
+      "EnergyEffectNormal": 25,
+      "EnergyEffectSilver": 35,
+      "EnergyEffectGold": 45,
+      "EnergyEffectIridium": 65,
 
-      "HealthEffectNormal": null,
-      "HealthEffectSilver": null,
-      "HealthEffectGold": null,
-      "HealthEffectIridium": null,
+      "HealthEffectNormal": 11,
+      "HealthEffectSilver": 15,
+      "HealthEffectGold": 20,
+      "HealthEffectIridium": 29,
 
-      "IsBundleItem": null
+      "IsBundleItem": true
     },
     {
       "Name": null,
