@@ -82,8 +82,8 @@ namespace socketGame
 
                     opponent.X = int.Parse(position[0]);
                     opponent.Y = int.Parse(position[1]);
-                    opponent.previousX = int.Parse(position[2]);
-                    opponent.previousY = int.Parse(position[3]);
+                    opponent.PreviousX = int.Parse(position[2]);
+                    opponent.PreviousY = int.Parse(position[3]);
 
                     DrawPlayer(opponent);
                 }
@@ -106,8 +106,8 @@ namespace socketGame
 
                     opponent.X = int.Parse(position[0]);
                     opponent.Y = int.Parse(position[1]);
-                    opponent.previousX = int.Parse(position[2]);
-                    opponent.previousY = int.Parse(position[3]);
+                    opponent.PreviousX = int.Parse(position[2]);
+                    opponent.PreviousY = int.Parse(position[3]);
 
                     DrawPlayer(opponent);
                 }
@@ -124,7 +124,7 @@ namespace socketGame
             {
                 player.Move();
 
-                var message = $"{player.X},{player.Y},{player.previousX},{player.previousY}";
+                var message = $"{player.X},{player.Y},{player.PreviousX},{player.PreviousY}";
                 var buffer = Encoding.ASCII.GetBytes(message);
                 stream.Write(buffer, 0, buffer.Length);
 
@@ -134,10 +134,13 @@ namespace socketGame
 
         static void DrawPlayer(Player player)
         {
-            Console.SetCursorPosition(player.previousX, player.previousY);
+            int x = Math.Max(0, Math.Min(Console.WindowWidth - 1, player.X));
+            int y = Math.Max(0, Math.Min(Console.WindowHeight - 1, player.Y));
+
+            Console.SetCursorPosition(player.PreviousX, player.PreviousY);
             Console.Write(' ');
 
-            Console.SetCursorPosition(player.X, player.Y);
+            Console.SetCursorPosition(x, y);
             Console.Write(player.Symbol);
         }
     }
@@ -147,8 +150,8 @@ namespace socketGame
         public int X { get; set; }
         public int Y { get; set; }
 
-        public int previousX { get; set; }
-        public int previousY { get; set; }
+        public int PreviousX { get; set; }
+        public int PreviousY { get; set; }
 
         public char Symbol = '@';
         public ConsoleColor Color = ConsoleColor.DarkMagenta;
@@ -161,9 +164,10 @@ namespace socketGame
 
         public void Move()
         {
-            previousX = X;
-            previousY = Y;
+            PreviousX = X;
+            PreviousY = Y;
 
+            Thread.Sleep(50);
             var key = Console.ReadKey(intercept: true);
 
             switch (key.Key)
