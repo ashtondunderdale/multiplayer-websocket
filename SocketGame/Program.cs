@@ -26,7 +26,7 @@ namespace socketGame
             var ipString = "192.168.129.48";
             var port = 8000;
 
-            Console.WriteLine($"\nHosting Server: {ipString} on port {port}");
+            Console.WriteLine($"\nHosting Server: {ipString}:{port}");
             var server = new TcpListener(IPAddress.Parse(ipString), port);
             server.Start();
 
@@ -75,18 +75,18 @@ namespace socketGame
             {
                 var bytesRead = stream.Read(buffer, 0, buffer.Length);
 
-                if (bytesRead > 0)
-                {
-                    var message = Encoding.ASCII.GetString(buffer, 0, bytesRead);
-                    var position = message.Split(',');
+                if (bytesRead < 0)
+                    continue;
 
-                    opponent.X = int.Parse(position[0]);
-                    opponent.Y = int.Parse(position[1]);
-                    opponent.PreviousX = int.Parse(position[2]);
-                    opponent.PreviousY = int.Parse(position[3]);
+                var message = Encoding.ASCII.GetString(buffer, 0, bytesRead);
+                var position = message.Split(',');
 
-                    DrawPlayer(opponent);
-                }
+                opponent.X = int.Parse(position[0]);
+                opponent.Y = int.Parse(position[1]);
+                opponent.PreviousX = int.Parse(position[2]);
+                opponent.PreviousY = int.Parse(position[3]);
+
+                DrawPlayer(opponent);
             }
         }
 
@@ -99,18 +99,18 @@ namespace socketGame
             {
                 var bytesRead = stream.Read(buffer, 0, buffer.Length);
 
-                if (bytesRead > 0)
-                {
-                    var message = Encoding.ASCII.GetString(buffer, 0, bytesRead);
-                    var position = message.Split(',');
+                if (bytesRead < 0)
+                    continue;
 
-                    opponent.X = int.Parse(position[0]);
-                    opponent.Y = int.Parse(position[1]);
-                    opponent.PreviousX = int.Parse(position[2]);
-                    opponent.PreviousY = int.Parse(position[3]);
+                var message = Encoding.ASCII.GetString(buffer, 0, bytesRead);
+                var position = message.Split(',');
 
-                    DrawPlayer(opponent);
-                }
+                opponent.X = int.Parse(position[0]);
+                opponent.Y = int.Parse(position[1]);
+                opponent.PreviousX = int.Parse(position[2]);
+                opponent.PreviousY = int.Parse(position[3]);
+
+                DrawPlayer(opponent);
             }
         }
 
@@ -122,9 +122,11 @@ namespace socketGame
 
             while (true)
             {
+                Thread.Sleep(50);
                 player.Move();
 
                 var message = $"{player.X},{player.Y},{player.PreviousX},{player.PreviousY}";
+
                 var buffer = Encoding.ASCII.GetBytes(message);
                 stream.Write(buffer, 0, buffer.Length);
 
@@ -137,7 +139,10 @@ namespace socketGame
             int x = Math.Max(0, Math.Min(Console.WindowWidth - 1, player.X));
             int y = Math.Max(0, Math.Min(Console.WindowHeight - 1, player.Y));
 
-            Console.SetCursorPosition(player.PreviousX, player.PreviousY);
+            int previousX = Math.Max(0, Math.Min(Console.WindowWidth - 1, player.PreviousX));
+            int previousY = Math.Max(0, Math.Min(Console.WindowHeight - 1, player.PreviousY));
+
+            Console.SetCursorPosition(previousX, previousY);
             Console.Write(' ');
 
             Console.SetCursorPosition(x, y);
@@ -167,10 +172,9 @@ namespace socketGame
             PreviousX = X;
             PreviousY = Y;
 
-            Thread.Sleep(50);
-            var key = Console.ReadKey(intercept: true);
+            var key = Console.ReadKey(intercept: true).Key;
 
-            switch (key.Key)
+            switch (key)
             {
                 case ConsoleKey.UpArrow:
                     if (Y > 0) Y--;
